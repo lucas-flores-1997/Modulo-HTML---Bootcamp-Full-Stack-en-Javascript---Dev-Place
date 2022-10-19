@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+}
+header {
+  background-color: firebrick;
+  padding: 50px;
+  text-align: center;
+  height: 100px;
+  width: 70%;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.encabezado {
+  font-size: 80px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.container .card {
+  width: 330px;
+  height: 300px;
+  background-color: indianred;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, , 0.2);
+  overflow: hidden;
+  margin: 25px;
+  text-align: center;
+  transition: all 0.25s;
+}
+
+.container .card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, , 0.2);
+}
+
+.container .card img {
+  width: 330px;
+  height: 220px;
+}
+
+.container .card h4 {
+  font-weight: 600;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+footer {
+  background-color: coral;
+  padding: 50px;
+  text-align: center;
+  height: 30px;
+  width: 50%;
+  display: flex;
+  border-radius: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}
+footer .icono{
+ width: 45px;
+height: 45px;
+border-radius: 3px;
+overflow: hidden;
+text-align: center;
+transition: all 0.25s;
+margin: auto;
+
+}
+
+footer .icono:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, , 0.2);
+}
+
+footer .icono img {
+    width: 40px;
+    height: 40px;
+}
